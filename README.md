@@ -1,5 +1,3 @@
-Certainly! Let's delve into each step with a more detailed explanation:
-
 ### Project: Practical Expertise in Virtual Machine Setup and Nessus Vulnerability Scanning
 
 **1. Creating a Virtual Machine on Azure:**
