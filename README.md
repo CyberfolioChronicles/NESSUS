@@ -10,6 +10,8 @@ Configuring the initial Windows VM involves setting up the operating system with
 
 **3. Installation of Nessus:**
 Nessus is a widely used vulnerability scanner that helps identify security vulnerabilities and misconfigurations in systems and applications. Installing Nessus on the Windows VM allows you to utilize its capabilities for vulnerability assessment in the subsequent steps.
+<br />
+<br />
 <img src="https://i.imgur.com/szUZOrL.png" height="80%" width="80%" alt="AWS Steps"/>
 <br />
 <br /><img src="https://i.imgur.com/ad5GTPV.png" height="80%" width="80%" alt="AWS Steps"/>
