@@ -2,6 +2,12 @@
 
  ### [YouTube Demonstration](https://youtu.be/mnjxUoBTyKs?si=Jz41GNzO2xMnNI4s)
 
+ <h2>Tools Used:</h2>
+
+- <b>Windows 10 Virtual Machine</b>
+- <b>Microsoft Azure</b>
+- <b>Nessus Essentials</b>
+
 **1. Creating a Virtual Machine on Azure:**
 Creating a virtual machine (VM) on Azure involves provisioning a simulated computing environment within the Azure cloud infrastructure. This VM will mimic a real computer system, complete with an operating system (e.g., Windows) and other necessary components. This step is crucial for emulating a networked environment, enabling you to conduct vulnerability scans in a controlled setting.
 
