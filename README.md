@@ -10,25 +10,41 @@ Configuring the initial Windows VM involves setting up the operating system with
 
 **3. Installation of Nessus:**
 Nessus is a widely used vulnerability scanner that helps identify security vulnerabilities and misconfigurations in systems and applications. Installing Nessus on the Windows VM allows you to utilize its capabilities for vulnerability assessment in the subsequent steps.
-
+<img src="https://i.imgur.com/szUZOrL.png" height="80%" width="80%" alt="AWS Steps"/>
+<br />
+<br /><img src="https://i.imgur.com/ad5GTPV.png" height="80%" width="80%" alt="AWS Steps"/>
+<br />
+<br />
 **4. Configuration of Nessus for Scanning:**
 Configuring Nessus for scanning involves defining scan policies, specifying scan targets (IP addresses, hostnames), configuring scanning options (e.g., port scanning, plugin selection), and scheduling scans. Proper configuration ensures that Nessus scans the target environment effectively and efficiently, focusing on the aspects you want to assess.
-
+<br /><img src="https://i.imgur.com/TDsgZQA.png" height="80%" width="80%" alt="AWS Steps"/>
+<br />
+<br />
 **5. Nessus Initial Scan:**
 Executing an initial Nessus scan involves running the configured scan policy against the target system (the Windows VM in this case). Nessus will scan for known vulnerabilities and security issues based on the defined parameters, providing a baseline assessment of the system's security posture.
-
+<br /><img src="https://i.imgur.com/T0imAMD.png" height="80%" width="80%" alt="AWS Steps"/>
+<br />
+<br />
 **6. Configuration of Credentials for Credential Scan:**
 To conduct a more thorough assessment, configuring credentials (such as usernames and passwords) allows Nessus to authenticate and gain deeper access to the target system. Credential-based scanning often provides more accurate and comprehensive results by identifying vulnerabilities that are only visible with authenticated access.
-
+<br /><img src="https://i.imgur.com/kfgIciT.png" height="80%" width="80%" alt="AWS Steps"/>
+<br />
+<br />
 **7. Nessus Credential Scan:**
 Conducting a Nessus scan with the provided credentials allows the scanner to authenticate with the target system. This type of scan can uncover vulnerabilities that would be invisible without proper authentication, improving the overall accuracy and completeness of the vulnerability assessment.
-
+<br /><img src="https://i.imgur.com/C6DzM8W.png" height="80%" width="80%" alt="AWS Steps"/>
+<br />
+<br />
 **8. Installation of Vulnerable Software on Windows VM:**
 Installing intentionally vulnerable software on the Windows VM involves adding specific applications or systems known to have vulnerabilities. These vulnerabilities will serve as targets for Nessus scans, enabling you to simulate real-world scenarios and assess the effectiveness of Nessus in identifying and flagging these vulnerabilities.
-
+<br /><img src="https://i.imgur.com/agBpw6a.png" height="80%" width="80%" alt="AWS Steps"/>
+<br />
+<br />
 **9. Advanced Nessus Scanning for Vulnerable Software:**
 Performing advanced Nessus scans on the Windows VM, now equipped with intentionally vulnerable software, allows you to simulate more complex attack scenarios. This includes exploiting vulnerabilities, attempting privilege escalation, and understanding how Nessus reacts to these situations. It's an essential step for gaining a deeper understanding of Nessus's capabilities and limitations.
-
+<br /><img src="https://i.imgur.com/PjLzaC0.png" height="80%" width="80%" alt="AWS Steps"/>
+<br />
+<br />
 **10. Remediation of Vulnerabilities:**
 Identifying vulnerabilities is only part of the process. Developing effective remediation strategies involves analyzing the scan results, prioritizing vulnerabilities based on severity, and creating a plan to mitigate these security weaknesses. Remediation may involve applying patches, reconfiguring systems, updating software, or implementing security measures to enhance the system's overall security posture.
 
